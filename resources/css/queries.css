@@ -1,0 +1,212 @@
+
+/*  big tablets up to 1200px (widths smaller than 1140px row)   */
+@media only screen and (max-width: 1200px) {
+
+    .hero-text-box {
+        width: 100%;
+        padding: 0 2%;
+    }
+
+    .row { padding: 0 2%;}
+   
+   
+
+}
+
+
+
+
+/*  small tablets - big tablets res. from 768-1023px width   */
+@media only screen and (max-width: 1023px) {
+
+
+    section { padding: 60px 0; }
+
+    .long-copy {
+        
+        width: 80%;            /* this + margin left*2 = 100% */
+        margin-left: 10%;
+    
+    }
+
+    .main-nav li {
+        margin-left: 10px;
+        font-size: 88%;
+    }
+
+
+    .steps-box { margin-top: 10px;}
+    .steps-box:last-child { margin-top: 10px; }
+    .works-step {margin-bottom: 40px;}
+    .works-step:last-of-type { margin-bottom: 40px; }
+
+
+    .app-screen { width: 50%; }
+    .btn-app img { margin-right: 0; }
+    
+    .works-step p { margin: 30px;}
+
+
+
+    .icon-small { 
+        width: 20px;
+        margin-right: 0;
+    }
+    /*.section-cities {font-size: 85% ;}*/
+
+
+    .plan-box{
+        width: 100%;
+        margin-left: 0%;
+        font-size: 90%;
+    }
+    .plan-price {
+        font-size: 250%;
+        font-weight: 300;
+    }
+
+    .contact-form {width: 80%;}
+
+}
+
+
+
+
+
+
+
+/*  from small phone to small tablets iPad,  from 481-767px width   */
+@media only screen and (max-width: 767px) {
+
+
+body { font-size: 16px; }
+
+section {padding: 30px 0;}
+
+.row,
+.hero-text-box {
+    padding: 0 4%;
+}
+
+.hero-text-box {
+    top: 200px;
+}
+
+.col {
+    width: 100%;    /* Ez egymasra teszi a kis oszlopokat  */
+    margin: 0 0 4% 0;
+}   
+
+.main-nav {display: none;}
+
+
+
+
+
+ion-icon[name=menu],
+ion-icon[name=close] {
+    display: inline-block;
+}
+
+.main-nav {
+    float: left;
+    margin-top: 35px;
+    margin-left: 25px;
+
+}
+
+.main-nav li {
+    display: block;
+}
+
+.main-nav li a:link,
+.main-nav li a:visited {
+    display: block;
+    border: 0;
+    padding: 10px 0;
+    font-size: 100%;
+}
+
+
+.sticky .main-nav { margin-top: 10px; }
+
+.sticky .main-nav li a:link, 
+.sticky .main-nav li a:visited { padding: 10px 0; }
+.sticky ion-icon[name=menu],
+.sticky ion-icon[name=close] {
+     color: #555;
+     margin-top: 10px;
+}
+
+
+
+.h1 { font-size: 180%;}
+.h1 { font-size: 150%;}
+
+.long-copy {       
+    width: 100%;        
+    margin-left: 0%;
+}
+
+
+
+.works-step {margin-bottom: 20px;}
+.works-step:last-of-type { margin-bottom: 20px; }
+
+.works-step div {
+    margin-bottom: 20px;
+    height: 40px;
+    width: 40px;
+    padding: 4px;
+    margin-right: 15px;
+    font-size: 120%;
+}
+.app-screen {width: 40%;}
+
+.steps-box:first-child {
+    text-align: center;
+}
+
+header {
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.4)), to(#000)), url(img/racsos-min_iphone.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), #000), url(img/racsos-min_iphone-min.jpg);
+    background-size: 100%;
+    height: 85vh;
+    background-repeat: none;
+    background-attachment: fixed;
+    background-position: 20px 0;
+
+}
+#csillag {
+    display: block;
+}
+
+
+
+}
+
+
+
+
+/*  for small phones from 0-480px width   */
+@media only screen and (max-width: 480px) {
+
+
+
+
+
+section {
+    padding: 25px 0;
+
+}
+
+.contact-form { width: 100%;}
+
+
+
+
+
+}
+
+
+
